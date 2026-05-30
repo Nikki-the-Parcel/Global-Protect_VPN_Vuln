@@ -1,8 +1,8 @@
 # CVE-2024-3400
-This program was improved upon to include a safety-feature which will catch the cases that will cause this script to be caught in indefinitely <br>
+This program was improved upon to include a safety-feature which will catch the cases that will cause this script to be caught in from excuting indefinitely.<br>
 
 The base script was created by retkoussa and referenced [here](https://github.com/retkoussa/CVE-2024-3400/blob/main/main.py).<br>
-Problem with the above script:- The script fails if the connection is reset by the Target Server --> Causing a Error.
+Problem with the previous script:- <br>The script fails if the connection is reset by the Target Server --> Causing a Error.
 
 What was changed:- Inserted a TRY/EXCEPT Block.<br>
 
